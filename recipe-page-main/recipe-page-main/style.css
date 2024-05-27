@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+body{
+    padding: 10%;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: outfit;
+    font-size: 16px;
+    background-color: rgb(226, 188, 188);
+}
+
+.container{
+    
+    padding: 30px;
+    background-color: hsl(330, 100%, 98%);
+    border: 1px;
+    border-radius: 20px;
+}
+
+.header img{
+    border: 1px;
+    border-radius: 15px;
+    padding: 5px;
+    width: 100%;
+}
+
+.title{
+    padding-top: 10px;
+    font-family: Young serif;
+    color: hsl(60, 2%, 8%);
+    font-weight: 400;
+}
+
+.text-header{
+    font-family: outfit;
+    color: hsl(24, 5%, 18%);
+    font-weight: 400;
+}
+
+.box-time{
+    padding: 25px;
+}
+
+.h2-time{
+    font-weight: 500;
+    color: hsl(332, 51%, 32%);
+}
+
+.list-time li{
+      padding: 10px;
+}
+.list-time span{
+    font-weight: bold;
+    color: hsl(24, 5%, 18%); 
+    margin-left: 10px;
+}
+
+.list-time li::marker{
+    color: hsl(332, 51%, 32%);
+}
+
+.h2-title{
+    font-family: Young serif;
+    font-weight: 100;
+    font-size: 25px;
+    color: hsl(14, 45%, 36%);
+}
+
+.list-ingredients li{
+    color: hsl(24, 5%, 18%);
+    margin-bottom: 10px;
+}
+
+.list-ingredients li::marker{
+    color: hsl(14, 45%, 36%);
+}
+
+hr{
+    color: hsl(30, 18%, 87%);
+    box-sizing:border-box;
+    width:100%;
+}
+
+.list-instructions li{
+    margin-bottom: 15px;
+}
+
+.list-instructions span{
+    font-weight: bold;
+    color: hsl(24, 5%, 18%);
+
+}
+.list-instructions li::marker{
+    color: hsl(14, 45%, 36%);
+    font-weight: 600;
+}
+
+.box-table td{
+    padding-right: 200px;
+    color: hsl(24, 5%, 18%);
+    padding-bottom: 15px;
+}
+
+.box-table {
+    padding-left: 30px;
+}
+
+.box-table th{
+    color: hsl(14, 45%, 36%);
+}
